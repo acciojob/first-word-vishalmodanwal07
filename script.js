@@ -1,5 +1,6 @@
 function firstWord(s) {
-  // your code here
+if(s.length <0 && !s.includes(" ")) return  s;
+return s.split(" ")[0];
 }
 
 // Do not change the code below
